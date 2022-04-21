@@ -219,13 +219,12 @@ header{
         gap: 20px;
         width: auto;
         justify-content: center;
-        height: 0px;
         box-shadow: none;
-        align-items: center;
+        align-items: flex-start;
+        margin-left:2vw;
         border-radius: 15px;
-        opacity: 0;
         transition: 0.2s ease-in-out;
-        overflow-y:none;
+        margin-bottom: 3vh;
     }
 
     .feature-on{
@@ -292,7 +291,7 @@ header{
         width: auto;
         justify-content: center;
         height: 0px;
-        padding-left: 8vw;
+        padding-left: 2vw;
         box-shadow: none;
         align-items: left;
         border-radius: 15px;
